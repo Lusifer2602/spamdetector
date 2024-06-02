@@ -1,6 +1,3 @@
-/* stylesheet.css */
-
-/* Global Styles */
 
 * {
     box-sizing: border-box;
@@ -10,8 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #2f2f2f; /* dark gray background */
-    color: #fff; /* white text */
+    background-co
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +18,7 @@
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
-    color: #66d9ef; /* blue-green title color */
+    color: #66d9ef; 
   }
   
   p {
@@ -44,20 +40,19 @@
   }
   
   a {
-    color: #66d9ef; /* blue-green link color */
+    color: #66d9ef;
     text-decoration: none;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #444; /* dark gray background for button */
+    background-color: #444; 
     cursor: pointer;
   }
   
   a:hover {
-    background-color: #555; /* darker gray background on hover */
+    background-color: #555;
   }
   
-  /* Spam Detection Result */
   
   .spam-result {
     font-size: 18px;
@@ -66,15 +61,12 @@
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    background-color: #444; /* dark gray background for result box */
-  }
+    background-color: #444;
   
   .spam-result span {
-    color: #ff69b4; /* pink color for spam result */
+    color: #ff69b4;
   }
-  
-  /* Keyword List */
-  
+    
   .keyword-list {
     margin-top: 20px;
     text-align: left;
@@ -85,5 +77,5 @@
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color    : transparent; /* remove background color */
+    background-color    : transparent; 
   }
