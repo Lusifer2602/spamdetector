@@ -7,7 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-co
+    background-color: #2f2f2f;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +62,7 @@
     padding: 10px;
     border-radius: 5px;
     background-color: #444;
-  
+  }
   .spam-result span {
     color: #ff69b4;
   }
@@ -77,5 +77,5 @@
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color    : transparent; 
+    background-color: transparent; 
   }
