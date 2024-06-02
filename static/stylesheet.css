@@ -1,0 +1,89 @@
+/* stylesheet.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f; /* dark gray background */
+    color: #fff; /* white text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #66d9ef; /* blue-green title color */
+  }
+  
+  p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  a {
+    color: #66d9ef; /* blue-green link color */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* dark gray background for button */
+    cursor: pointer;
+  }
+  
+  a:hover {
+    background-color: #555; /* darker gray background on hover */
+  }
+  
+  /* Spam Detection Result */
+  
+  .spam-result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #444; /* dark gray background for result box */
+  }
+  
+  .spam-result span {
+    color: #ff69b4; /* pink color for spam result */
+  }
+  
+  /* Keyword List */
+  
+  .keyword-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .keyword-list li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color    : transparent; /* remove background color */
+  }

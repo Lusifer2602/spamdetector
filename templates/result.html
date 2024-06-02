@@ -3,12 +3,13 @@
   <head>
     <title>Spam Detector</title>
   </head>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">  <body>
+   <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+   <body>
     <h1>Spam Detector</h1>
     {% if num_keywords >= 5 %}
-      <p>This email/document is likely a spam.</p>
+      <p>This email/document is likely a spam.</p> <br>
     {% else %}
-      <p>This email/document is not a spam.</p>
+      <p>This email/document is not a spam.</p> <br>
     {% endif %}
     <p>Matching keywords found in the text:</p>
     <ul>
