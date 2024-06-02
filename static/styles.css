@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Global Styles */
 
 * {
     box-sizing: border-box;
@@ -10,18 +8,16 @@
   
   body {
     font-family: 'arial', serif;
-    background-color: #2f2f2f; /* dark gray background */
+    background-color: #2f2f2f; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
   }
-  
-  /* Navigation Styles */
-  
+    
   .navigation {
-    background-color: #3b3939; /* dark gray background */
+    background-color: #3b3939; 
     padding: 1rem;
     text-align: center;
     position: fixed;
@@ -32,15 +28,14 @@
   }
   
   .navigation a {
-    color: #fffafa; /* blue-green link color */
+    color: #fffafa;
     text-decoration: none;
     margin: 0 1rem;
   }
   
-  /* Spam Detector Styles */
   
   .spamdetector {
-    background-color: #333; /* dark gray background */
+    background-color: #333;
     padding: 2rem;
     border: 1px solid #555;
     border-radius: 10px;
@@ -52,11 +47,11 @@
   .h1 {
     font-size: 24px;
     margin-bottom: 1rem;
-    text-align: center; /* add this to center the text */
+    text-align: center; 
     color: whitesmoke;
-    border: 0px solid #ccc; /* add a light gray border */
-    border-radius: 0px; /* add a slight rounded corner effect */
-    font-family: Arial, sans-serif; /* use a normal font */
+    border: 0px solid #ccc; 
+    border-radius: 0px; 
+    font-family: Arial, sans-serif; 
   }
   
   form {
@@ -67,16 +62,16 @@
   
   input[type="file"] {
     padding: 1rem;
-    border: 1px solid #555; /* dark gray border */
+    border: 1px solid #555; 
     border-radius: 5px;
     margin-bottom: 1rem;
-    background-color: #444; /* dark gray background */
-    color: #fff; /* white text */
+    background-color: #444; 
+    color: #fff;
   }
   
   input[type="submit"] {
-    background-color: #4CAF50; /* green button color */
-    color: #fff; /* white text */
+    background-color: #4CAF50;
+    color: #fff; 
     padding: 1rem 2rem;
     border: none;
     border-radius: 5px;
@@ -84,7 +79,7 @@
   }
   
   input[type="submit"]:hover {
-    background-color: #3e8e41; /* darker green button color on hover */
+    background-color: #3e8e41; 
   }
   
   .right {
@@ -93,21 +88,20 @@
   }
   
   .fake {
-    background-color: #555; /* dark gray background */
+    background-color: #555; 
     padding: 1rem;
-    border: 1px solid #666; /* dark gray border */
+    border: 1px solid #666;
     border-radius: 5px;
     width: 100px;
     height: 100px;
   }
   
-  /* Footer Styles */
   
   .footer {
-    background-color: #444; /* dark gray background */
+    background-color: #444; 
     padding: 1rem;
     text-align: center;
-    color: #66d9ef; /* blue-green text color */
+    color: #66d9ef;
     position: fixed;
     bottom: 0;
     left: 0;
